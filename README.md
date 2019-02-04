@@ -11,7 +11,9 @@
 1. Fork and clone this repository.
 1. Change into the new directory.
 1. `npm install` to add dependencies.
+1. `npm start` to launch the live server.
 1. Fulfill the listed requirements.
+
 
 Unless otherwise specified on the calendar or by an instructor, homework is due
 the next morning by 9:00am.
@@ -37,23 +39,11 @@ tardis = {
 };
 ```
 
-
-
-
 ## Thinking in React
 
 - Take a few minutes to read over
   [Thinking in React](https://reactjs.org/docs/thinking-in-react.html)
 - Do the activity and reread this article and try to figure out how the pieces go together.
-
-
-
-
-
-
-
-
-
 
 ## Set Up
 
@@ -87,6 +77,7 @@ Check your State in React Dev Tools:
 
 - Add the function below to your App component.
 - Set up the function so that it gets called on click and changes the text in the `h3`
+- What do you have to do in the constructor to ensure this function works?
 
 ```js
 changeIt (text) {
