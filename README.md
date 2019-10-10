@@ -12,8 +12,6 @@
 1. `npm start` to launch the live server.
 1. Fulfill the listed requirements.
 
-Unless otherwise specified on the calendar or by an instructor, homework is due
-the next morning by 9:00am.
 
 ## Requirements
 
