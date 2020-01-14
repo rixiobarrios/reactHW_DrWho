@@ -1,6 +1,6 @@
 import React from "react";
 
-function DivThree(props) {
+function DivFour(props) {
   return (
     <div>
       <h3 onClick={() => props.changeIt(props.tardis.name)}>
@@ -10,4 +10,4 @@ function DivThree(props) {
   );
 }
 
-export default DivThree;
+export default DivFour;

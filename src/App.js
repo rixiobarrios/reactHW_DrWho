@@ -12,7 +12,7 @@ class App extends Component {
     };
   }
 
-  changeIt(text) {
+  changeIt = text => {
     if (this.state.tardis.caps) {
       this.setState({
         tardis: {
@@ -28,17 +28,11 @@ class App extends Component {
         }
       });
     }
-  }
+  };
   render() {
     return (
       <div>
-        <h3
-          onClick={() => {
-            this.changeIt(this.state.tardis.name);
-          }}
-        >
-          {this.state.tardis.name}
-        </h3>
+        <DivOne changeIt={this.changeIt} tardis={this.state.tardis} />
       </div>
     );
   }
