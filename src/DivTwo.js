@@ -1,14 +1,15 @@
 import React from "react";
 import DivThree from "./DivThree.js";
 import DivFour from "./DivFour.js";
-import { render } from "react-dom";
 
 class DivTwo extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      name: "Time and Relative Dimension in Space",
-      caps: false
+      tardis: {
+        name: "Time and Relative Dimension in Space",
+        caps: false
+      }
     };
   }
 
